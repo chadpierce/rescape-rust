@@ -26,6 +26,7 @@ Other basics:
 - rescape is the first Rust code I’ve written - and the largest coding project I’ve ever worked on.
 - Because I am not a developer the code is probably bad
 - No libraries are being used for game logic, only for keyboard input and output to the screen
+- rescape will currently only compile on a *nix - this is not likely change
 - The goal is not to finish the game, but to learn a modern language and have fun
 - The first few parts of this tutorial were loosely followed to get started: https://tomassedovic.github.io/roguelike-tutorial
 - Development began in early 2020, but after COVID-19 working on it has become a nice escape while sheltering in place - no pun intended
