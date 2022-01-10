@@ -36,8 +36,8 @@ pub fn melee_attack(source: &mut Object, target: &mut Object) -> i32 {
     //println!("source name: {:?}", source.name);
     //println!("target name: {:?}", target.name);
 
-    let source_rng = rand::thread_rng().gen_range(0, 3);
-    let target_rng = rand::thread_rng().gen_range(0, 3);
+    let source_rng = rand::thread_rng().gen_range(0..3);
+    let target_rng = rand::thread_rng().gen_range(0..3);
     let damage = source.actor.map_or(0, |f| f.strength + source_rng) - target.actor.map_or(0, |f| f.strength + target_rng);
 
     //let dmg = 0;

@@ -114,8 +114,8 @@ impl Object {
         // TODO move the fomulas to combat.rs - leave the basc damage calc here?
         
         /*
-        let source_rng = rand::thread_rng().gen_range(0, 3);
-        let target_rng = rand::thread_rng().gen_range(0, 3);
+        let source_rng = rand::thread_rng().gen_range(0..3);
+        let target_rng = rand::thread_rng().gen_range(0..3);
         let damage = self.actor.map_or(0, |f| f.strength + source_rng) - target.actor.map_or(0, |f| f.strength + target_rng);
         */
 
